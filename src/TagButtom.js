@@ -1,8 +1,11 @@
 import "./TagButtomStyle.css"
 
 
-export default function TagButtom ({ title="Click Me" }) {
+export default function TagButtom ({ title="Click Me", children }) {
     return (
-        <button className="tagButton">{ title }</button>
+        <button className="tagButton">
+            { title }
+            { children }
+        </button>
     )
 }

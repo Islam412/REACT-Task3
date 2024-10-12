@@ -15,22 +15,22 @@ function App() {
         <div style={{ display: "flex", width: "60%" }}>
           <div style={{ width: "70%" }}>
             {/* post  */}
+            <Post />
             <Post postName="Code Acadmy" postBody="This Acadmy is the best off learn code" />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
+            <Post postName="Learn Code" postBody="This Acadmy is the best off learn code for easy" />
+            <Post postName="Code Acadmy Children" postBody="This Acadmy is the best off learn code for children" />
+            <Post postName="Code Acadmy" postBody="This Acadmy is the best off learn code" />
+            <Post postName="Code Acadmy" postBody="This Acadmy is the best off learn code" />
+            <Post postName="Code Acadmy" postBody="This Acadmy is the best off learn code" />
+            <Post postName="Code Acadmy" postBody="This Acadmy is the best off learn code" />
+            <Post postName="Code Acadmy" postBody="This Acadmy is the best off learn code" />
+            <Post postName="Code Acadmy" postBody="This Acadmy is the best off learn code" />
+            <Post postName="Code Acadmy" postBody="This Acadmy is the best off learn code" />
+            <Post postName="Code Acadmy" postBody="This Acadmy is the best off learn code" />
+            <Post postName="Code Acadmy" postBody="This Acadmy is the best off learn code" />
+            <Post postName="Code Acadmy" postBody="This Acadmy is the best off learn code" />
+            <Post postName="Code Acadmy" postBody="This Acadmy is the best off learn code" />
+            <Post postName="Code Acadmy" postBody="This Acadmy is the best off learn code" />
             {/* ==post== */}
           </div>
           {/* ==post and side menu container== */}

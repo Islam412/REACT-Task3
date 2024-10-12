@@ -19,8 +19,8 @@ function App() {
             <Post postName="Code Acadmy" postBody="This Acadmy is the best off learn code" />
             <Post postName="Learn Code" postBody="This Acadmy is the best off learn code for easy" />
             <Post postName="Code Acadmy Children" postBody="This Acadmy is the best off learn code for children" />
-            <Post postName="Code Acadmy" postBody="This Acadmy is the best off learn code" />
-            <Post postName="Code Acadmy" postBody="This Acadmy is the best off learn code" />
+            <Post postName="اكادمية تعلم" postBody="تعمل علي استخدام افضل وسائل التعلم بصورة مرحة" />
+            <Post postName="اكادمية فنون" postBody="تعمل علي تعلم الاطفال الهتمام بذاتهم وتلوين حياتهم" />
             <Post postName="Code Acadmy" postBody="This Acadmy is the best off learn code" />
             <Post postName="Code Acadmy" postBody="This Acadmy is the best off learn code" />
             <Post postName="Code Acadmy" postBody="This Acadmy is the best off learn code" />

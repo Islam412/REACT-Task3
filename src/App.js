@@ -1,23 +1,50 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './Header';
+import Post from './Post';
+import SideMenu from './SideMenu';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+
+      
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        {/* post and side menu container */}
+        <div style={{ display: "flex", width: "60%" }}>
+          <div style={{ width: "70%" }}>
+            {/* post  */}
+            <Post postName="Code Acadmy" postBody="This Acadmy is the best off learn code" />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            {/* ==post== */}
+          </div>
+          {/* ==post and side menu container== */}
+
+          {/* side menu */}
+          <div style={{ width: "30%" }}>
+            <SideMenu />
+          </div>
+          {/* ==side menu== */}
+        </div>
+        
+      </div>
+
+
     </div>
   );
 }
